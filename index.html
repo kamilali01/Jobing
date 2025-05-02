@@ -12,28 +12,37 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body> 
+    <div class="theme-toggle">
+        <button id="themeToggle" aria-label="Toggle theme">
+            <span class="light-icon">☀️</span>
+            <span class="dark-icon">🌙</span>
+        </button>
+    </div>
 
-<h1>Latest Vacancies</h1> 
-<div class="card-container"> 
+    <h1>Latest Vacancies</h1> 
+    <div class="card-container"> 
+            <div class="card"> 
+            <div class="card-title">Frontend Developer</div> 
+            <div class="card-company">TechCorp</div> 
+            <button class="btn" onclick="viewDetails('Frontend Developer')">See more</button> 
+        </div> 
+
         <div class="card"> 
-        <div class="card-title">Frontend Developer</div> 
-        <div class="card-company">TechCorp</div> 
-        <button class="btn" onclick="viewDetails('Frontend Developer')">See more</button> 
-    </div> 
+            <div class="card-title">Sales Manager</div> 
+            <div class="card-company">SalesPro Inc.</div> 
+            <button class="btn" onclick="viewDetails('Sales Manager')">See more</button> 
+        </div> 
 
-    <div class="card"> 
-        <div class="card-title">Sales Manager</div> 
-        <div class="card-company">SalesPro Inc.</div> 
-        <button class="btn" onclick="viewDetails('Sales Manager')">See more</button> 
+        <div class="card"> 
+            <div class="card-title">Accountant</div> 
+            <div class="card-company">Finance Solutions</div> 
+            <button class="btn" onclick="viewDetails('Accountant')">See more</button> 
+        </div> 
+        
     </div> 
-
-    <div class="card"> 
-        <div class="card-title">Accountant</div> 
-        <div class="card-company">Finance Solutions</div> 
-        <button class="btn" onclick="viewDetails('Accountant')">See more</button> 
-    </div> 
-    
-</div> 
-<script src="code.js"></script>
+    <script src="code.js"></script>
+    <script>
+        
+    </script>
 </body>
 </html>
