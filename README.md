@@ -36,6 +36,7 @@ Edit
 
 
 🚀 Getting Started
+
 Clone the repository:
 git clone https://github.com/kamilali01/Jobing.git
 Open index.html in your browser — no build step needed.
